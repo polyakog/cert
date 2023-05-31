@@ -21,7 +21,7 @@ export const SecTaskFCC = () => {
                     <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_danger}>Delete</button></div>
 
                 </div>
-                <p>Things cats love:</p>
+                <p>Things cats <span class={css.text_danger}>love:</span></p>
                 <ul>
                     <li>cat nip</li>
                     <li>laser pointers</li>
