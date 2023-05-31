@@ -7,11 +7,11 @@ export const SecTaskFCC = () => {
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
 
             <div className={css.container_fluid}>
-                <h2 className={css.red_text + css.text_center}>CatPhotoApp</h2>
+                <h2 className={css.text_primary + css.text_center}>CatPhotoApp</h2>
 
                 <p>Click here for <a href="#">cat photos</a>.</p>
 
-                <a href="#"><img className={css.smaller_image + css.thick_green_border} src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." /></a>
+                <a href="#"><img className={css.img_responsive + css.thick_green_border} src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." /></a>
 
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" className={css.img_responsive} alt="Three kittens running towards the camera." />
                 <div className={css.row}>
