@@ -1,7 +1,7 @@
 import React from "react"
 import css from './FirstTask.module.css'
 
-export const FirstTaskFCC = () => {
+export const SecTaskFCC = () => {
     return(
         <div>
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"/>
@@ -15,7 +15,7 @@ export const FirstTaskFCC = () => {
 
                     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" className={css.img_responsive} alt="Three kittens running towards the camera."/>
 
-                <button className={css.btn + css.btn_default}>Like</button>
+                <button className={css.btn + css.btn_default + css.btn_block}>Like</button>
                         <p>Things cats love:</p>
                         <ul>
                             <li>cat nip</li>
