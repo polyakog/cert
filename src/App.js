@@ -6,7 +6,7 @@ import { SecTaskFCC } from './component/freeeCodeCamp/SecTaskFCC';
 function App() {
   return (
     <div className="App">
-      <FirstTaskFCC/>
+      {/* <FirstTaskFCC/> */}
       <SecTaskFCC/>
     </div>
   );

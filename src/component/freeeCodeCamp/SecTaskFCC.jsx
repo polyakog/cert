@@ -1,5 +1,7 @@
 import React from "react"
 import css from './FirstTask.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
 export const SecTaskFCC = () => {
     return (
@@ -15,7 +17,9 @@ export const SecTaskFCC = () => {
 
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" className={css.img_responsive} alt="Three kittens running towards the camera." />
                 <div className={css.row}>
-                    <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_block}>Like</button>
+                    <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_block}>
+                        {/* <i class="fas fa-thumbs-up"></i> */}
+                        <FontAwesomeIcon icon={faThumbsUp} />  Likes</button>
                     </div>
                     <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_info}>Info</button></div>
                     <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_danger}>Delete</button></div>
