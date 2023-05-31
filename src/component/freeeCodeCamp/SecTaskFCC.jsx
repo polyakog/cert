@@ -16,7 +16,8 @@ export const SecTaskFCC = () => {
                     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" className={css.img_responsive} alt="Three kittens running towards the camera."/>
 
                 <button className={css.btn + css.btn_btn_primary + css.btn_block}>Like</button>
-                <button className={css.btn + css.btn_btn_primary + css.btn_Info}>Info</button>
+                <button className={css.btn + css.btn_btn_primary + css.btn_info}>Info</button>
+                <button className={css.btn + css.btn_btn_primary + css.btn_danger}>Delete</button>
                         <p>Things cats love:</p>
                         <ul>
                             <li>cat nip</li>
