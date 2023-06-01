@@ -29,7 +29,7 @@ export const SecTaskFCC = () => {
                             <FontAwesomeIcon icon={faTrash} /> Delete</button></div>
 
                 </div>
-                <p>Things cats <span class={css.text_danger}>love:</span></p>
+                <p>Things cats <span className={css.text_danger}>love:</span></p>
                 <ul>
                     <li>cat nip</li>
                     <li>laser pointers</li>
@@ -42,8 +42,15 @@ export const SecTaskFCC = () => {
                     <li>other cats</li>
                 </ol>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
-                    <label><input type="radio" name="indoor-outdoor" /> Indoor</label>
-                    <label><input type="radio" name="indoor-outdoor" /> Outdoor</label>
+                    <div className={css.row}>
+                        <div className={css.col_xs_6}>
+                            <label><input type="radio" name="indoor-outdoor" /> Indoor</label>
+                        </div>
+                        <div className={css.col_xs_6}>
+                            <label><input type="radio" name="indoor-outdoor" /> Outdoor</label>
+                        </div>
+                    </div>
+
                     <label><input type="checkbox" name="personality" /> Loving</label>
                     <label><input type="checkbox" name="personality" /> Lazy</label>
                     <label><input type="checkbox" name="personality" /> Crazy</label>
