@@ -1,6 +1,7 @@
 import './App.css';
 // import { ArrayPlusArray } from './component/codewars/ArrayPlusArray';
-import { RemoveDuplicates } from './component/codewars/RemoveDuplicates';
+// import { RemoveDuplicates } from './component/codewars/RemoveDuplicates';
+import { ReversedSequence } from './component/codewars/ReversedSequence';
 // import { QuarteOfYear } from './component/codewars/QuarterOfYear';
 // import { TwoSum } from './component/codewars/TwoSum';
 // import { BootstrapTaskFCC} from './component/freeeCodeCamp/BootstrapTaskFCC';
@@ -12,7 +13,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <RemoveDuplicates />
+      <ReversedSequence />
     </div>
   );
 }
