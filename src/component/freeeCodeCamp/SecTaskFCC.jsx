@@ -1,7 +1,7 @@
 import React from "react"
 import css from './FirstTask.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
+import { faThumbsUp, fas, faInfo, faTrash } from '@fortawesome/free-solid-svg-icons'
 
 export const SecTaskFCC = () => {
     return (
@@ -21,8 +21,12 @@ export const SecTaskFCC = () => {
                         {/* <i class="fas fa-thumbs-up"></i> */}
                         <FontAwesomeIcon icon={faThumbsUp} />  Likes</button>
                     </div>
-                    <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_info}>Info</button></div>
-                    <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_danger}>Delete</button></div>
+                    <div className={css.col_xs_4}>
+                        <button className={css.btn + css.btn_btn_primary + css.btn_info}>
+                            <FontAwesomeIcon icon={faInfo} /> Info</button></div>
+                    <div className={css.col_xs_4}>
+                        <button className={css.btn + css.btn_btn_primary + css.btn_danger}>
+                            <FontAwesomeIcon icon={faTrash} /> Delete</button></div>
 
                 </div>
                 <p>Things cats <span class={css.text_danger}>love:</span></p>
