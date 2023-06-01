@@ -1,5 +1,7 @@
 import './App.css';
-import { BootstrapTaskFCC} from './component/freeeCodeCamp/BootstrapTaskFCC';
+import { QuarteOfYear } from './component/codewars/QuarterOfYear';
+// import { TwoSum } from './component/codewars/TwoSum';
+// import { BootstrapTaskFCC} from './component/freeeCodeCamp/BootstrapTaskFCC';
 
 
 function App() {
@@ -7,7 +9,8 @@ function App() {
     <div className="App">
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
-      <BootstrapTaskFCC/>
+      {/* <BootstrapTaskFCC/> */}
+      <QuarteOfYear/>
     </div>
   );
 }
