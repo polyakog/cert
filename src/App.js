@@ -1,5 +1,6 @@
 import './App.css';
-import { QuarteOfYear } from './component/codewars/QuarterOfYear';
+import { ArrayPlusArray } from './component/codewars/ArrayPlusArray';
+// import { QuarteOfYear } from './component/codewars/QuarterOfYear';
 // import { TwoSum } from './component/codewars/TwoSum';
 // import { BootstrapTaskFCC} from './component/freeeCodeCamp/BootstrapTaskFCC';
 
@@ -10,7 +11,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <QuarteOfYear/>
+      <ArrayPlusArray />
     </div>
   );
 }
