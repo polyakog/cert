@@ -1,7 +1,7 @@
 import React from "react"
 import css from './FirstTask.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faThumbsUp, fas, faInfo, faTrash } from '@fortawesome/free-solid-svg-icons'
+import { faThumbsUp, faInfo, faTrash, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 export const SecTaskFCC = () => {
     return (
@@ -22,7 +22,7 @@ export const SecTaskFCC = () => {
                         <FontAwesomeIcon icon={faThumbsUp} />  Likes</button>
                     </div>
                     <div className={css.col_xs_4}>
-                        <button className={css.btn + css.btn_btn_primary + css.btn_info}>
+                        <button className={css.btn + css.btn_primary + css.btn_info}>
                             <FontAwesomeIcon icon={faInfo} /> Info</button></div>
                     <div className={css.col_xs_4}>
                         <button className={css.btn + css.btn_btn_primary + css.btn_danger}>
@@ -43,19 +43,16 @@ export const SecTaskFCC = () => {
                 </ol>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
                     <div className={css.row}>
-                        <div className={css.col_xs_6}>
-                            <label><input type="radio" name="indoor-outdoor" /> Indoor</label>
-                        </div>
-                        <div className={css.col_xs_6}>
-                            <label><input type="radio" name="indoor-outdoor" /> Outdoor</label>
-                        </div>
+                        <div className={css.col_xs_6}><label><input type="radio" name="indoor-outdoor" /> Indoor</label></div>
+                        <div className={css.col_xs_6}><label><input type="radio" name="indoor-outdoor" /> Outdoor</label></div>
                     </div>
-
-                    <label><input type="checkbox" name="personality" /> Loving</label>
-                    <label><input type="checkbox" name="personality" /> Lazy</label>
-                    <label><input type="checkbox" name="personality" /> Crazy</label>
+                    < div className={css.row}>
+                        <div className={css.col_xs_4}><label><input type="checkbox" name="personality" /> Loving</label></div>
+                        <div className={css.col_xs_4}><label><input type="checkbox" name="personality" /> Lazy</label></div>
+                        <div className={css.col_xs_4}><label><input type="checkbox" name="personality" /> Crazy</label></div>
+                    </div>
                     <input type="text" placeholder="cat photo URL" required />
-                    <button type="submit">Submit</button>
+                    <button className={css.btn + css.btn_primary} type="submit"><FontAwesomeIcon icon={faPaperPlane} /> Submit</button>
                 </form>
             </div>
 
