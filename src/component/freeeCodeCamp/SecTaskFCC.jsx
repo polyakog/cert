@@ -11,7 +11,7 @@ export const SecTaskFCC = () => {
             <div className={css.container_fluid}>
                 <div className={css.row}>
                     <div className={css.col_xs_8}><h2 className={css.text_primary + css.text_center}>CatPhotoApp</h2></div>
-                    <div className={css.col_xs_4}><a href="#"><img className={css.thick_green_border} src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." /></a></div>
+                    <div className={css.col_xs_4}><a href="/"><img className={css.thick_green_border} src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." /></a></div>
 
                 </div>
 
@@ -51,10 +51,12 @@ export const SecTaskFCC = () => {
                         <div className={css.col_xs_4}><label><input type="checkbox" name="personality" /> Lazy</label></div>
                         <div className={css.col_xs_4}><label><input type="checkbox" name="personality" /> Crazy</label></div>
                     </div>
-                    <input type="text" placeholder="cat photo URL" required />
-                    <button className={css.btn + css.btn_primary} type="submit"><FontAwesomeIcon icon={faPaperPlane} /> Submit</button>
+                    < div className={css.row}>
+                        <div className={css.col_xs_7}><input type="text" placeholder="cat photo URL" required /></div>
+                        <div className={css.col_xs_5}><button className={css.btn + css.btn_primary} type="submit"><FontAwesomeIcon icon={faPaperPlane} /> Submit</button></div>
+                    </div>
                 </form>
-            </div>
+            </div >
 
 
 
@@ -80,7 +82,7 @@ export const SecTaskFCC = () => {
 
 
 
-        </div>
+        </div >
     )
 
 }
