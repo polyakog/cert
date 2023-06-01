@@ -10,22 +10,22 @@ export const SecTaskFCC = () => {
 
             <div className={css.container_fluid}>
                 <div className={css.row}>
-                    <div className={css.col_xs_8}><h2 className={css.text_primary + css.text_center}>CatPhotoApp</h2></div>
+                    <div className={css.col_xs_8}><h2 className={css.text_primary + ' ' + css.text_center}>CatPhotoApp</h2></div>
                     <div className={css.col_xs_4}><a href="/"><img className={css.thick_green_border} src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." /></a></div>
 
                 </div>
 
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" className={css.img_responsive} alt="Three kittens running towards the camera." />
                 <div className={css.row}>
-                    <div className={css.col_xs_4}><button className={css.btn + css.btn_btn_primary + css.btn_block}>
+                    <div className={css.col_xs_4}><button className={css.btn + ' ' + css.btn_btn_primary + ' ' + css.btn_block}>
                         {/* <i class="fas fa-thumbs-up"></i> */}
                         <FontAwesomeIcon icon={faThumbsUp} />  Likes</button>
                     </div>
                     <div className={css.col_xs_4}>
-                        <button className={css.btn + css.btn_primary + css.btn_info}>
+                        <button className={css.btn + ' ' + css.btn_primary + ' ' + css.btn_info}>
                             <FontAwesomeIcon icon={faInfo} /> Info</button></div>
                     <div className={css.col_xs_4}>
-                        <button className={css.btn + css.btn_btn_primary + css.btn_danger}>
+                        <button className={css.btn + ' ' + css.btn_btn_primary + ' ' + css.btn_danger}>
                             <FontAwesomeIcon icon={faTrash} /> Delete</button></div>
 
                 </div>
@@ -53,7 +53,7 @@ export const SecTaskFCC = () => {
                     </div>
                     < div className={css.row}>
                         <div className={css.col_xs_7}><input type="text" placeholder="cat photo URL" required /></div>
-                        <div className={css.col_xs_5}><button className={css.btn + css.btn_primary} type="submit"><FontAwesomeIcon icon={faPaperPlane} /> Submit</button></div>
+                        <div className={css.col_xs_5}><button className={css.btn + ' ' + css.btn_primary} type="submit"><FontAwesomeIcon icon={faPaperPlane} /> Submit</button></div>
                     </div>
                 </form>
             </div >

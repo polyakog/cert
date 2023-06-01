@@ -9,3 +9,9 @@ h2 {
     border-radius: 50%;
 }
 
+
+.text_primary.text_center{
+    color: rgb(9, 51, 134);
+    text-align: center;
+}
+

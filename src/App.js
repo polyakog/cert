@@ -1,13 +1,13 @@
 import './App.css';
-import { FirstTaskFCC } from './component/freeeCodeCamp/FirstTaskFCC';
-import { SecTaskFCC } from './component/freeeCodeCamp/SecTaskFCC';
+import { BootstrapTaskFCC} from './component/freeeCodeCamp/BootstrapTaskFCC';
 
 
 function App() {
   return (
     <div className="App">
       {/* <FirstTaskFCC/> */}
-      <SecTaskFCC/>
+      {/* <SecTaskFCC/> */}
+      <BootstrapTaskFCC/>
     </div>
   );
 }
