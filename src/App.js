@@ -1,6 +1,7 @@
 import './App.css';
+import { FindDuplicates } from './component/codewars/FindDuplicates';
 // import { Quadrants } from './component/codewars/ConvertNumber';
-import { PermuteAPalindrome } from './component/codewars/PermuteAPalindrome';
+// import { PermuteAPalindrome } from './component/codewars/PermuteAPalindrome';
 // import { CheckCase } from './component/codewars/CheckCase';
 // import { EvenOdd } from './component/codewars/EvenOdd';
 // import { PillarDistance } from './component/codewars/Pillars';
@@ -20,7 +21,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <PermuteAPalindrome />
+      <FindDuplicates />
     </div>
   );
 }
