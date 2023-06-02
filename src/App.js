@@ -1,8 +1,10 @@
 import './App.css';
+import { Quadrants } from './component/codewars/ConvertNumber';
 // import { CheckCase } from './component/codewars/CheckCase';
 // import { EvenOdd } from './component/codewars/EvenOdd';
 // import { PillarDistance } from './component/codewars/Pillars';
-import { Quadrants } from './component/codewars/Quadrants';
+// import { Quadrants } from './component/codewars/Quadrants';
+// import { ReversNumberInAnyBase } from './component/codewars/ReversNumberInAnyBase';
 // import { ArrayPlusArray } from './component/codewars/ArrayPlusArray';
 // import { RemoveDuplicates } from './component/codewars/RemoveDuplicates';
 // import { ReversedSequence } from './component/codewars/ReversedSequence';
