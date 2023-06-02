@@ -1,5 +1,6 @@
 import './App.css';
-import { Quadrants } from './component/codewars/ConvertNumber';
+// import { Quadrants } from './component/codewars/ConvertNumber';
+import { PermuteAPalindrome } from './component/codewars/PermuteAPalindrome';
 // import { CheckCase } from './component/codewars/CheckCase';
 // import { EvenOdd } from './component/codewars/EvenOdd';
 // import { PillarDistance } from './component/codewars/Pillars';
@@ -19,7 +20,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <Quadrants />
+      <PermuteAPalindrome />
     </div>
   );
 }
