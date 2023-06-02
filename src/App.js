@@ -1,5 +1,7 @@
 import './App.css';
-import { CheckCase } from './component/codewars/CheckCase';
+// import { CheckCase } from './component/codewars/CheckCase';
+// import { EvenOdd } from './component/codewars/EvenOdd';
+import { PillarDistance } from './component/codewars/Pillars';
 // import { ArrayPlusArray } from './component/codewars/ArrayPlusArray';
 // import { RemoveDuplicates } from './component/codewars/RemoveDuplicates';
 // import { ReversedSequence } from './component/codewars/ReversedSequence';
@@ -14,7 +16,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <CheckCase />
+      <PillarDistance />
     </div>
   );
 }
