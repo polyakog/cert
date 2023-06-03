@@ -1,5 +1,6 @@
 import './App.css';
-import { FindDuplicates } from './component/codewars/FindDuplicates';
+import { AreaOrPerimeter } from './component/codewars/AreaOrPerimeter';
+// import { FindDuplicates } from './component/codewars/FindDuplicates';
 // import { Quadrants } from './component/codewars/ConvertNumber';
 // import { PermuteAPalindrome } from './component/codewars/PermuteAPalindrome';
 // import { CheckCase } from './component/codewars/CheckCase';
@@ -21,7 +22,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <FindDuplicates />
+      <AreaOrPerimeter />
     </div>
   );
 }
