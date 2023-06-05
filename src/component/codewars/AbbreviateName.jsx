@@ -1,29 +1,33 @@
-// https://www.codewars.com/kata/582e4c3406e37fcc770001ad/train/javascript
-// It is easy to join two strings together like this string1 + string2.
+// https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+// Write a function to convert a name into initials.This kata strictly takes two words with one space in between them.
 
-// Another way to get the desired result would be with string1.concat(string2)
+// The output should be two capital letters with a dot separating them.
 
-// ES6 has introduced another way of joining strings.Your task is to find out what this is and write a function that will add two strings together, there must be a space between the two strings.
+// It should look like this:
 
-// + , .concat() & .join() will not be allowed in this exercise.I have also removed some other methods that can be used to cheat!
+// Sam Harris => S.H
 
-// If one of the arguments is a number your code must coerce it into being a string.
+// patrick feeney => P.F
+
 
 
 
 import React, { useEffect, useState } from "react"
 
 
-export const joinStrings = (string1, string2) => `${string1} ${string2}`
+export const abbrevName = (name) => {
+    // name = name.toUpperCase()
+    // const [name1, name2] = name.split(' ')
+    // return `${name1.charAt(0)}.${name2.charAt(0)}`
+    return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+}
 
-export const ES6stringAddition = () => {
+export const AbbrevName = () => {
     const [answer, setAnswer] = useState([])
-
-    const string2 = 'testing2'
-    const string1 = 'testing'
+    const name = 'patrick feeney'
 
     const onClick = () => {
-        setAnswer(joinStrings(string1, string2))
+        setAnswer(abbrevName(name))
     }
 
     useEffect(() => {
@@ -33,8 +37,8 @@ export const ES6stringAddition = () => {
 
     return (
         <div>
-            <div style={{ marginTop: '200px' }}> строка 1 : {string1}</div>
-            <div style={{ marginTop: '10px' }}> строка 2: {string2}</div>
+            <div style={{ marginTop: '200px' }}> Имя и Фамилия : {name}</div>
+            {/* <div style={{ marginTop: '10px' }}> строка 2: {string2}</div> */}
             {/* <div style={{ marginTop: '10px' }}> ширина: [{w}]</div> */}
             <button onClick={onClick} style={{ marginTop: '10px', background: '#4b81df', color: 'white' }}>Result</button>
 

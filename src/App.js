@@ -1,5 +1,6 @@
 import './App.css';
-import { ES6stringAddition } from './component/codewars/ES6stringAddition';
+import { AbbrevName } from './component/codewars/AbbreviateName';
+// import { ES6stringAddition } from './component/codewars/ES6stringAddition';
 // import { RemoveStringSpaces } from './component/codewars/RemoveStringSpaces';
 // import { SayHello } from './component/codewars/SayHallo';
 // import { StringsConstruction } from './component/codewars/StringsConstruction';
@@ -29,7 +30,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <ES6stringAddition />
+      <AbbrevName />
 
     </div>
   );
