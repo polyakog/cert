@@ -1,5 +1,6 @@
 import './App.css';
-import { StringsConstruction } from './component/codewars/StringsConstruction';
+// import { StringsConstruction } from './component/codewars/StringsConstruction';
+import { TotalAmountOfPoints } from './component/codewars/TotalAmountOfPoints';
 // import { LineNumbering } from './component/codewars/LineNumbering';
 // import { RemoveDuplicates2 } from './component/codewars/RemoveDuplicates2';
 // import { AreaOrPerimeter } from './component/codewars/AreaOrPerimetr';
@@ -25,7 +26,8 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <StringsConstruction/>
+      <TotalAmountOfPoints />
+
     </div>
   );
 }
