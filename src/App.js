@@ -1,5 +1,7 @@
 import './App.css';
-import { RemoveStringSpaces } from './component/codewars/RemoveStringSpaces';
+import { ES6stringAddition } from './component/codewars/ES6stringAddition';
+// import { RemoveStringSpaces } from './component/codewars/RemoveStringSpaces';
+// import { SayHello } from './component/codewars/SayHallo';
 // import { StringsConstruction } from './component/codewars/StringsConstruction';
 // import { TotalAmountOfPoints } from './component/codewars/TotalAmountOfPoints';
 // import { LineNumbering } from './component/codewars/LineNumbering';
@@ -27,7 +29,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <RemoveStringSpaces />
+      <ES6stringAddition />
 
     </div>
   );
