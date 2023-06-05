@@ -1,5 +1,6 @@
 import './App.css';
-import { LineNumbering } from './component/codewars/LineNumbering';
+import { StringsConstruction } from './component/codewars/StringsConstruction';
+// import { LineNumbering } from './component/codewars/LineNumbering';
 // import { RemoveDuplicates2 } from './component/codewars/RemoveDuplicates2';
 // import { AreaOrPerimeter } from './component/codewars/AreaOrPerimetr';
 // import { FindDuplicates } from './component/codewars/FindDuplicates';
@@ -24,7 +25,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <LineNumbering/>
+      <StringsConstruction/>
     </div>
   );
 }
