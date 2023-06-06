@@ -18,11 +18,9 @@ import React, { useEffect, useState } from "react"
 
 export const sequenceSum = (begin, end, step) => {
     let sum = 0
-    for (let i = begin; i<= end; i+=step) {
-    sum += i;
-    
-}
-    
+    for (let i = begin; i <= end; i += step) {
+        sum += i;
+    }
     return sum
 };
 
@@ -46,7 +44,7 @@ export const SumOfSequence = () => {
             <div style={{ marginTop: '200px' }}> b : {b}</div>
             <div style={{ marginTop: '10px' }}> e: {e}</div>
             <div style={{ marginTop: '10px' }}> s: {s}</div>
-            
+
             <button onClick={onClick} style={{ marginTop: '10px', background: '#4b81df', color: 'white' }}>Result</button>
 
             <div style={{ marginTop: '10px' }}> Answer: {answer}</div>

@@ -1,7 +1,8 @@
 import './App.css';
+import { SetReducer } from './component/codewars/SetReducer';
 // import { AbbrevName } from './component/codewars/AbbreviateName';
 // import { JulieAge } from './component/codewars/JulieAge';
-import { SumOfSequence } from './component/codewars/SumOfSequence';
+// import { SumOfSequence } from './component/codewars/SumOfSequence';
 // import { ES6stringAddition } from './component/codewars/ES6stringAddition';
 // import { RemoveStringSpaces } from './component/codewars/RemoveStringSpaces';
 // import { SayHello } from './component/codewars/SayHallo';
@@ -32,7 +33,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <SumOfSequence />
+      <SetReducer />
 
     </div>
   );
