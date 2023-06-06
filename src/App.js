@@ -1,5 +1,6 @@
 import './App.css';
-import { AbbrevName } from './component/codewars/AbbreviateName';
+// import { AbbrevName } from './component/codewars/AbbreviateName';
+import { JulieAge } from './component/codewars/JulieAge';
 // import { ES6stringAddition } from './component/codewars/ES6stringAddition';
 // import { RemoveStringSpaces } from './component/codewars/RemoveStringSpaces';
 // import { SayHello } from './component/codewars/SayHallo';
@@ -30,7 +31,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <AbbrevName />
+      <JulieAge />
 
     </div>
   );
