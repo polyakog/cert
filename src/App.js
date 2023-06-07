@@ -1,5 +1,6 @@
 import './App.css';
-import { RemoveDuplicates3 } from './component/codewars/RemoveDuplicates3';
+import { ChainMe } from './component/codewars/ChainMe';
+// import { RemoveDuplicates3 } from './component/codewars/RemoveDuplicates3';
 // import { SetReducer } from './component/codewars/SetReducer';
 // import { AbbrevName } from './component/codewars/AbbreviateName';
 // import { JulieAge } from './component/codewars/JulieAge';
@@ -34,7 +35,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <RemoveDuplicates3 />
+      <ChainMe />
 
     </div>
   );
