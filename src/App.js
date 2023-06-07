@@ -1,5 +1,6 @@
 import './App.css';
-import { SetReducer } from './component/codewars/SetReducer';
+import { RemoveDuplicates3 } from './component/codewars/RemoveDuplicates3';
+// import { SetReducer } from './component/codewars/SetReducer';
 // import { AbbrevName } from './component/codewars/AbbreviateName';
 // import { JulieAge } from './component/codewars/JulieAge';
 // import { SumOfSequence } from './component/codewars/SumOfSequence';
@@ -33,7 +34,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <SetReducer />
+      <RemoveDuplicates3 />
 
     </div>
   );
