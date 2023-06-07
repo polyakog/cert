@@ -17,14 +17,17 @@
 import React, { useEffect, useState } from "react"
 
 
-export const chain = (input, fs) => {
-    let output = input
-    return fs.map((f, i, a) => {
-        output = f(output)
-        return output
-    })
-    
-};
+export const chain = (input, fns) =>
+    fns.reduce((output, fn) => fn(output), input)  //reduce(callbackFn, initialValue)
+
+// export const chain = (input, fs) => {
+//     let output = input
+//     fs.map((f, i, a) => {
+//         output = f(output)
+//         return output
+//     })
+//     return output
+// };
 
 export const ChainMe = () => {
     const [answer, setAnswer] = useState([])
