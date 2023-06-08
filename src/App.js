@@ -1,5 +1,6 @@
 import './App.css';
-import { ChainMe } from './component/codewars/ChainMe';
+// import { ChainMe } from './component/codewars/ChainMe';
+import { DataReverse } from './component/codewars/DataReverse';
 // import { RemoveDuplicates3 } from './component/codewars/RemoveDuplicates3';
 // import { SetReducer } from './component/codewars/SetReducer';
 // import { AbbrevName } from './component/codewars/AbbreviateName';
@@ -35,7 +36,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <ChainMe />
+      <DataReverse />
 
     </div>
   );
