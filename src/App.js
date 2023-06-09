@@ -1,5 +1,6 @@
 import './App.css';
-import { CamelCase } from './component/codewars/CamelCase';
+import { BackForthReverse } from './component/codewars/BackForthReverse';
+// import { CamelCase } from './component/codewars/CamelCase';
 // import { ChainMe } from './component/codewars/ChainMe';
 // import { DataReverse } from './component/codewars/DataReverse';
 // import { RemoveDuplicates3 } from './component/codewars/RemoveDuplicates3';
@@ -37,7 +38,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <CamelCase />
+      <BackForthReverse />
 
     </div>
   );
