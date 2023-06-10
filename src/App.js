@@ -1,6 +1,7 @@
 import './App.css';
 // import { BackForthReverse } from './component/codewars/BackForthReverse';
-import { Dashatieze } from './component/codewars/Dashatize';
+// import { Dashatieze } from './component/codewars/Dashatize';
+import { Wave } from './component/codewars/StringsConstruction';
 // import { CamelCase } from './component/codewars/CamelCase';
 // import { ChainMe } from './component/codewars/ChainMe';
 // import { DataReverse } from './component/codewars/DataReverse';
@@ -39,7 +40,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <Dashatieze />
+      <Wave />
 
     </div>
   );

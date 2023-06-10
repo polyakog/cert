@@ -1,66 +1,51 @@
-// https://www.codewars.com/kata/58870402c81516bbdb000088/train/javascript
-// How many strings equal to A can be constructed using letters from the string B? Each letter can be used only once and in one string only.
+// https://www.codewars.com/kata/58f5c63f1e26ecda7e000029/train/javascript
+// Introduction
+// The wave (known as the Mexican wave in the English-speaking world outside North America) is an example of metachronal rhythm achieved in a packed stadium when successive groups of spectators briefly stand, yell, and raise their arms. Immediately upon stretching to full height, the spectator returns to the usual seated position.
 
+// The result is a wave of standing spectators that travels through the crowd, even though individual spectators never move away from their seats. In many large arenas the crowd is seated in a contiguous circuit all the way around the sport field, and so the wave is able to travel continuously around the arena; in discontiguous seating arrangements, the wave can instead reflect back and forth through the crowd. When the gap in seating is narrow, the wave can sometimes pass through it. Usually only one wave crest will be present at any given time in an arena, although simultaneous, counter-rotating waves have been produced. (Source Wikipedia)
+// Task
+// In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up. 
+// Rules
+//  1.  The input string will always be lower case but maybe empty.
+
+//  2.  If the character in the string is whitespace then pass over it as if it was an empty seat
 // Example
-// For A = "abc" and B = "abccba", the output should be 2.
-
-// We can construct 2 strings A with letters from B.
-
-// Input/Output
-// [input] string A
-
-// String to construct, A contains only lowercase English letters.
-
-// Constraints: 3 ≤ A.length ≤ 9.
-
-// [input] string B
-
-// String containing needed letters, B contains only lowercase English letters.
-
-// Constraints: 3 ≤ B.length ≤ 50.
-
-// [output] an integer
+// wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
 
 import React, { useEffect, useState } from "react"
 
 
-export const stringsConstruction = (a, b) => {
-    var result = 0;
-    var sum = true;
-    var idx
-    a = a.split("");
-    b = b.split("");
-    while (sum) {
-        for (var i = 0; i < a.length; i++) {
-            idx = b.indexOf(a[i]);
-            if (idx != -1) {
-                b.splice(idx, 1)
-            } else {
-                sum = false;
-                break;
-            }
+export const wave = (str) => {
+    const array = str.split('')
+    let result = []
+    for (let j = 0; j < array.length; j++) {
+        if (!/[^\w]/.test(array[j])) {
+
+        result.push(
+            array
+                .map((s, i, a) => (i === j ? s.toUpperCase() : s))
+                .join('')
+        )
         }
 
-        if (sum) {
-            result++
-        }
     }
-    return result;
+    return result
+
 }
 
 
 
 
-export const StringsConstruction = () => {
+export const Wave = () => {
     const [answer, setAnswer] = useState([])
-    const a = 'zzz'
-    const b = 'zzzzzzzzzzz'
+    const a = 'hello'
+
 
 
 
     const onClick = () => {
-        setAnswer(stringsConstruction(a, b))
+        setAnswer(wave(a))
     }
 
     useEffect(() => {
@@ -70,8 +55,8 @@ export const StringsConstruction = () => {
 
     return (
         <div>
-            <div style={{ marginTop: '200px' }}> A: {a}</div>
-            <div style={{ marginTop: '10px' }}> B: {b}</div>
+            <div style={{ marginTop: '200px' }}> string: {a}</div>
+            {/* <div style={{ marginTop: '10px' }}> B: {b}</div> */}
             {/* <div style={{ marginTop: '10px' }}> ширина: [{w}]</div> */}
             <button onClick={onClick} style={{ marginTop: '10px', background: '#4b81df', color: 'white' }}>Result</button>
 
