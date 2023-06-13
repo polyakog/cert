@@ -1,5 +1,6 @@
 import './App.css';
-import { UniqueInOrder } from './component/codewars/UniqueInOrder';
+import { TitleCase } from './component/codewars/TitleCase';
+// import { UniqueInOrder } from './component/codewars/UniqueInOrder';
 // import { BackForthReverse } from './component/codewars/BackForthReverse';
 // import { Dashatieze } from './component/codewars/Dashatize';
 // import { Wave } from './component/codewars/WaveStringsConstruction';
@@ -41,7 +42,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <UniqueInOrder />
+      <TitleCase />
 
     </div>
   );
