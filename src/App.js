@@ -1,5 +1,6 @@
 import './App.css';
-import { TitleCase } from './component/codewars/TitleCase';
+import { TowerBuilder } from './component/codewars/BuildTower';
+// import { TitleCase } from './component/codewars/TitleCase';
 // import { UniqueInOrder } from './component/codewars/UniqueInOrder';
 // import { BackForthReverse } from './component/codewars/BackForthReverse';
 // import { Dashatieze } from './component/codewars/Dashatize';
@@ -42,7 +43,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <TitleCase />
+      <TowerBuilder />
 
     </div>
   );
