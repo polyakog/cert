@@ -1,5 +1,6 @@
 import './App.css';
-import { TowerBuilder } from './component/codewars/BuildTower';
+// import { TowerBuilder } from './component/codewars/BuildTower';
+import { JQueryTaskFCC } from './component/freeeCodeCamp/jQueryTaskFCC';
 // import { TitleCase } from './component/codewars/TitleCase';
 // import { UniqueInOrder } from './component/codewars/UniqueInOrder';
 // import { BackForthReverse } from './component/codewars/BackForthReverse';
@@ -43,7 +44,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <TowerBuilder />
+      <JQueryTaskFCC />
 
     </div>
   );
