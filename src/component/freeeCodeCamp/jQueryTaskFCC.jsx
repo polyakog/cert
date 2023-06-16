@@ -24,8 +24,15 @@ export const JQueryTaskFCC = () => {
         $('button:nth-child(3)').css('color', 'gray')
         $(".target:even").addClass("shake");
     }
-
-
+    const onjQueryKill = () => {
+       $("body").addClass("animated hinge")
+        setTimeout(() => {
+            $("body").addClass("show")
+            $("body").removeClass("animated hinge show")
+        },5000)
+        
+    }
+    
 
     return (
         <div>
@@ -53,6 +60,7 @@ export const JQueryTaskFCC = () => {
                 </div>
 
                 <button onClick={onjQueryReady} style={{ marginTop: '20px', background: '#2e87e38f' }}>jQuery</button>
+                <button onClick={onjQueryKill} style={{ marginTop: '20px', marginLeft: '30px', background: '#2e87e38f' }}>jQuery kill</button>
 
             </div>
 
