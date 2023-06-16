@@ -15,6 +15,7 @@ const onjQueryReady = () => {
     $("#target1").prop("disabled", true);
     $("#target4").remove();
     $("#target2").appendTo("#right-well")
+    $('#target5').clone().appendTo('#left-well')
 
 }
 
