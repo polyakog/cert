@@ -1,4 +1,4 @@
-import './Sass.css'
+import './Sass.scss'
 
 
 export const SassFCC = () => {
