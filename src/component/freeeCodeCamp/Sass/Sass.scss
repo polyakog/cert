@@ -25,10 +25,16 @@
     @include border-stroke(heavy);
 }
 
-@for $j from 1 to 6 {
-    .text-#{$j} {
-        font-size: 15px*$j;
-    }
+// @for $j from 1 to 6 {
+//     .text-#{$j} {
+//         font-size: 15px*$j;
+//     }
+// }
+
+$x:1;
+@while $x< 6 {
+    .text-#{$x} {font-size: 15px*$x;}
+    $x:$x+1;
 }
 
 $colors: 
