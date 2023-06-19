@@ -12,20 +12,32 @@
     }
 
     @else {
-        border:none;
-    };
+        border: none;
+    }
+
+    ;
 }
-
-@for $j from 1 to 6 {
-    .text-#{$j} {font-size: 15px*$j;}
-}
-
-
-
 
 #box {
     width: 150px;
     height: 150px;
     background-color: red;
     @include border-stroke(heavy);
+}
+
+@for $j from 1 to 6 {
+    .text-#{$j} {
+        font-size: 15px*$j;
+    }
+}
+
+$colors: 
+    blue hsl(240, 100%, 50%),
+    black black,
+    red red;
+
+@each $name, $color in $colors {
+    .#{$name}-bg {
+        background-color: $color;
+    }
 }
