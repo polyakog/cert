@@ -7,7 +7,7 @@ export const SassFCC = () => {
 
     }
 
-   
+
     return (
 
         <div>
@@ -25,7 +25,14 @@ export const SassFCC = () => {
             <div className="black-bg">black</div>
             <div className="red-bg">red</div>
 
-            <button onClick={onButtonClick} style={{ marginTop: '20px', background: '#2e87e38f' }}>Apply</button>
+            <h3>Posts</h3>
+            <div class="info-important">
+                <p>This is an important post. It should extend the class ".info" and have its own CSS styles.</p>
+            </div>
+
+            <div class="info">
+                <p>This is a simple post. It has basic styling and can be extended for other uses.</p>
+            </div>
 
         </div>
 
