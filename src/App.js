@@ -1,5 +1,6 @@
 import './App.css';
-import { SassFCC } from './component/freeeCodeCamp/Sass/Sass';
+import { React } from './component/freeeCodeCamp/React/React';
+// import { SassFCC } from './component/freeeCodeCamp/Sass/Sass';
 // import { TowerBuilder } from './component/codewars/BuildTower';
 // import { JQueryTaskFCC } from './component/freeeCodeCamp/jQueryTaskFCC';
 // import { TitleCase } from './component/codewars/TitleCase';
@@ -45,7 +46,7 @@ function App() {
       {/* <FirstTaskFCC/> */}
       {/* <SecTaskFCC/> */}
       {/* <BootstrapTaskFCC/> */}
-      <SassFCC />
+      <React />
 
     </div>
   );
